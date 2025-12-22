@@ -49,3 +49,16 @@ python -m PyInstaller FPS_Analyzer.spec
 ## 트러블슈팅
 - 실행 시 `ModuleNotFoundError: unittest` 등 표준 라이브러리 누락: 스펙의 `excludes` 목록에서 제거 후 재빌드.
 - 폰트 깨짐: matplotlib 설정이 Malgun Gothic을 사용합니다. 폰트가 없다면 다른 한글 폰트로 변경하거나 주석 처리하세요.
+
+## 라이선스 및 저작권
+
+Copyright © 2025 InnovaNex. All rights reserved.
+
+본 소프트웨어는 **비상업적 용도로만 사용**할 수 있습니다. 상업적 이용, 재배포, 수정 배포 시 사전 서면 동의가 필요합니다.
+
+**Commercial use is prohibited without prior written permission.**
+
+- ✅ 개인적 사용 및 분석 목적 사용 가능
+- ✅ 소스 코드 학습 및 참고 가능
+- ❌ 상업적 목적의 사용 금지
+- ❌ 무단 재배포 금지
